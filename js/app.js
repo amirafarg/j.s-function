@@ -40,3 +40,23 @@ function multiplyArr(arr) {
 console.log(multiplyArr ([2, 4, 6]));
 
 //4-return a string concatenation of the concatString and all elements of an array of strings.
+
+
+
+
+
+
+
+//in-sec
+
+function getEvenNambersFrom1To99 () {
+    var results = [];
+
+    for (var number = 1; number <= 99; number += 3 ) {
+        results.push(number);
+    }
+
+    console.log(results);
+
+}
+getEvenNambersFrom1To99 ();
